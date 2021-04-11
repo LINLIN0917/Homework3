@@ -11,6 +11,12 @@
 		212E0600260F585C00BF305A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212E05FF260F585C00BF305A /* ContentView.swift */; };
 		212E0602260F585D00BF305A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212E0601260F585D00BF305A /* Assets.xcassets */; };
 		212E0605260F585D00BF305A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212E0604260F585D00BF305A /* Preview Assets.xcassets */; };
+		212E0614260F5BAD00BF305A /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212E0613260F5BAD00BF305A /* ChartView.swift */; };
+		2165AC222622D41700078095 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2165AC212622D41700078095 /* Data.swift */; };
+		217B3B142619B1C6009ADEA3 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217B3B132619B1C6009ADEA3 /* FirstView.swift */; };
+		21C9653F2619AAB00086872E /* bensound-cute.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 21C9653E2619AAB00086872E /* bensound-cute.mp3 */; };
+		21C965422619AE090086872E /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C965412619AE090086872E /* Music.swift */; };
+		21C965452619AF4E0086872E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C965442619AF4E0086872E /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		212E0601260F585D00BF305A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		212E0604260F585D00BF305A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		212E0606260F585D00BF305A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		212E0613260F5BAD00BF305A /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		2165AC212622D41700078095 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		217B3B132619B1C6009ADEA3 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		21C9653E2619AAB00086872E /* bensound-cute.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-cute.mp3"; sourceTree = "<group>"; };
+		21C965412619AE090086872E /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		21C965442619AF4E0086872E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +64,14 @@
 		212E05FC260F585C00BF305A /* Homework3 */ = {
 			isa = PBXGroup;
 			children = (
+				21C9653C2619AA3A0086872E /* Resources */,
 				212E05FD260F585C00BF305A /* Homework3App.swift */,
+				21C965412619AE090086872E /* Music.swift */,
+				21C965442619AF4E0086872E /* AppDelegate.swift */,
 				212E05FF260F585C00BF305A /* ContentView.swift */,
+				2165AC212622D41700078095 /* Data.swift */,
+				217B3B132619B1C6009ADEA3 /* FirstView.swift */,
+				212E0613260F5BAD00BF305A /* ChartView.swift */,
 				212E0601260F585D00BF305A /* Assets.xcassets */,
 				212E0606260F585D00BF305A /* Info.plist */,
 				212E0603260F585D00BF305A /* Preview Content */,
@@ -67,6 +85,14 @@
 				212E0604260F585D00BF305A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21C9653C2619AA3A0086872E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21C9653E2619AAB00086872E /* bensound-cute.mp3 */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +154,7 @@
 			files = (
 				212E0605260F585D00BF305A /* Preview Assets.xcassets in Resources */,
 				212E0602260F585D00BF305A /* Assets.xcassets in Resources */,
+				21C9653F2619AAB00086872E /* bensound-cute.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2165AC222622D41700078095 /* Data.swift in Sources */,
 				212E0600260F585C00BF305A /* ContentView.swift in Sources */,
 				212E05FE260F585C00BF305A /* Homework3App.swift in Sources */,
+				212E0614260F5BAD00BF305A /* ChartView.swift in Sources */,
+				21C965452619AF4E0086872E /* AppDelegate.swift in Sources */,
+				217B3B142619B1C6009ADEA3 /* FirstView.swift in Sources */,
+				21C965422619AE090086872E /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
